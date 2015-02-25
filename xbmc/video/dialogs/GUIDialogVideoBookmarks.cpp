@@ -67,6 +67,8 @@ CGUIDialogVideoBookmarks::CGUIDialogVideoBookmarks()
 {
   m_vecItems = new CFileItemList;
   m_loadType = LOAD_EVERY_TIME;
+  // XXX check whether LOAD_EVERY_TIME is actually needed after PR 6415
+  //m_loadType = LOAD_ON_GUI_INIT;
   m_jobsStarted = 0;
 }
 
