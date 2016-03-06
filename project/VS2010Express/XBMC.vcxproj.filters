@@ -3295,6 +3295,9 @@
     <ClCompile Include="..\..\xbmc\cores\VideoPlayer\DVDInputStreams\InputStreamAddon.cpp">
       <Filter>cores\VideoPlayer\DVDInputStreams</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\xbmc\interfaces\legacy\InfoTagPicture.cpp">
+      <Filter>interfaces\legacy</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\xbmc\win32\pch.h">
@@ -6397,6 +6400,9 @@
     </ClInclude>
     <ClInclude Include="..\..\xbmc\addons\AddonCallbacksInputStream.h">
       <Filter>addons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\xbmc\interfaces\legacy\InfoTagPicture.h">
+      <Filter>interfaces\legacy</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
