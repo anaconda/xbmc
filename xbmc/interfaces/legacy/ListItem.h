@@ -33,6 +33,7 @@
 #include "commons/Exception.h"
 #include "InfoTagVideo.h"
 #include "InfoTagMusic.h"
+#include "InfoTagPicture.h"
 
 
 namespace XBMCAddon
@@ -389,6 +390,11 @@ namespace XBMCAddon
        * getMusicInfoTag() -- returns the MusicInfoTag for this item.
        */
       xbmc::InfoTagMusic* getMusicInfoTag();
+
+      /**
+       * getPictureInfoTag() -- returns the PictureInfoTag for this item.
+       */
+      xbmc::InfoTagPicture* getPictureInfoTag();
     };
 
     typedef std::vector<ListItem*> ListItemList;
