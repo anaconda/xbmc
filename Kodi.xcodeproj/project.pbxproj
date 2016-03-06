@@ -640,6 +640,8 @@
 		9A999F1E1C67B77600E4E0D5 /* AddonBuilder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A999F1B1C67B77600E4E0D5 /* AddonBuilder.cpp */; };
 		9AC167B61C5ED478004F0C29 /* MusicFileItemListModifier.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9AC167B41C5ED478004F0C29 /* MusicFileItemListModifier.cpp */; };
 		9AC167B71C5ED478004F0C29 /* MusicFileItemListModifier.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9AC167B41C5ED478004F0C29 /* MusicFileItemListModifier.cpp */; };
+		9ADCDA7C1C8CD5CE003332A2 /* InfoTagPicture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9ADCDA7A1C8CD5CE003332A2 /* InfoTagPicture.cpp */; };
+		9ADCDA7D1C8CD5CE003332A2 /* InfoTagPicture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9ADCDA7A1C8CD5CE003332A2 /* InfoTagPicture.cpp */; };
 		AE32174218313ADF0003FAFC /* XSLTUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AE4E87A517354C4A00D15206 /* XSLTUtils.cpp */; };
 		AE4E87A717354C4A00D15206 /* XSLTUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AE4E87A517354C4A00D15206 /* XSLTUtils.cpp */; };
 		AE84CB5A15A5B8A600A3810E /* TagLibVFSStream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AE84CB5915A5B8A600A3810E /* TagLibVFSStream.cpp */; };
@@ -3289,6 +3291,8 @@
 		9A999F1C1C67B77600E4E0D5 /* AddonBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddonBuilder.h; sourceTree = "<group>"; };
 		9AC167B41C5ED478004F0C29 /* MusicFileItemListModifier.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MusicFileItemListModifier.cpp; sourceTree = "<group>"; };
 		9AC167B51C5ED478004F0C29 /* MusicFileItemListModifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicFileItemListModifier.h; sourceTree = "<group>"; };
+		9ADCDA7A1C8CD5CE003332A2 /* InfoTagPicture.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = InfoTagPicture.cpp; sourceTree = "<group>"; };
+		9ADCDA7B1C8CD5CE003332A2 /* InfoTagPicture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoTagPicture.h; sourceTree = "<group>"; };
 		AE4E87A517354C4A00D15206 /* XSLTUtils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = XSLTUtils.cpp; sourceTree = "<group>"; };
 		AE4E87A617354C4A00D15206 /* XSLTUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XSLTUtils.h; sourceTree = "<group>"; };
 		AE84CB5915A5B8A600A3810E /* TagLibVFSStream.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TagLibVFSStream.cpp; sourceTree = "<group>"; };
@@ -6811,6 +6815,8 @@
 		DF1AD17B15FCE77900E10810 /* legacy */ = {
 			isa = PBXGroup;
 			children = (
+				9ADCDA7A1C8CD5CE003332A2 /* InfoTagPicture.cpp */,
+				9ADCDA7B1C8CD5CE003332A2 /* InfoTagPicture.h */,
 				395C29C81A98A11B00EBC7AD /* wsgi */,
 				DF1AD17C15FCE77900E10810 /* Addon.cpp */,
 				DF1AD17D15FCE77900E10810 /* Addon.h */,
@@ -10089,6 +10095,7 @@
 				DFA8157E16713B1200E4E597 /* WakeOnAccess.cpp in Sources */,
 				7C973CFB1B5038580002A874 /* GUIDialogAudioDSPSettings.cpp in Sources */,
 				DF529BAE1741697B00523FB4 /* Environment.cpp in Sources */,
+				9ADCDA7C1C8CD5CE003332A2 /* InfoTagPicture.cpp in Sources */,
 				DFE4095B17417FDF00473BD9 /* LegacyPathTranslation.cpp in Sources */,
 				39C38CCA1BBFF1EE000F59F5 /* InputCodingTableKorean.cpp in Sources */,
 				0E3036EC1760F68A00D93596 /* FavouritesDirectory.cpp in Sources */,
@@ -10648,6 +10655,7 @@
 				E49912D9174E5DA000741B6D /* ZipManager.cpp in Sources */,
 				E49912DC174E5DAD00741B6D /* D3DResource.cpp in Sources */,
 				E49912DD174E5DAD00741B6D /* DDSImage.cpp in Sources */,
+				9ADCDA7D1C8CD5CE003332A2 /* InfoTagPicture.cpp in Sources */,
 				E49912DE174E5DAD00741B6D /* DirectXGraphics.cpp in Sources */,
 				E49912DF174E5DAD00741B6D /* DirtyRegionSolvers.cpp in Sources */,
 				E49912E0174E5DAD00741B6D /* DirtyRegionTracker.cpp in Sources */,
